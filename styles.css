@@ -47,6 +47,17 @@ h1{
 
 }
 
+section{
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    place-items: center;
+}
+
+section{
+  margin-top: 50px;
+  gap: 50px;
+}
+
 
 
 
@@ -123,9 +134,7 @@ section {
   scroll-margin-top: var(--header-hoyde); /* headeren dekker ikke overskriften */
 }
 
-section h2 {
-  font-size: 32px;
-}
+
 
 /* ---------- Footer ---------- */
 
